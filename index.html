@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twordle - The Ultimate 5-Letter Logic Puzzle</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        twordleDark: '#121213',
+                        twordleGreen: '#538D4E',
+                        twordleYellow: '#B59F3B',
+                        twordleCard: '#1A1A1B'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-twordleDark text-white font-sans antialiased selection:bg-twordleGreen">
+
+    <header class="max-w-4xl mx-auto px-6 pt-16 pb-12 text-center">
+        <div class="inline-block bg-twordleCard p-4 rounded-2xl shadow-xl border border-gray-800 mb-6">
+            <h1 class="text-5xl font-black tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-twordleGreen to-twordleYellow">
+                TWORDLE
+            </h1>
+        </div>
+        <p class="text-xl text-gray-400 max-w-xl mx-auto font-medium">
+            The ultimate 5-letter word puzzle built on pure deduction and deep strategy.
+        </p>
+        <p class="text-sm text-gray-500 mt-2">By Technical Gamer</p>
+        
+        <div class="mt-8">
+            <a href="#" class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-xl text-white bg-twordleGreen hover:bg-opacity-90 transition shadow-lg gap-2">
+                🎮 Download on Google Play
+            </a>
+        </div>
+    </header>
+
+    <section class="max-w-4xl mx-auto px-6 py-12">
+        <h2 class="text-2xl font-bold text-center mb-8 tracking-tight">How It Works & Key Features</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-twordleCard p-6 rounded-xl border border-gray-800 shadow-md">
+                <div class="text-twordleYellow text-2xl mb-3">🧠</div>
+                <h3 class="text-lg font-bold mb-2">The Twordle Twist</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">We don't tell you which specific letters are correct. We give you precise yellow and green counts—you use logic to crack the rest.</p>
+            </div>
+            <div class="bg-twordleCard p-6 rounded-xl border border-gray-800 shadow-md">
+                <div class="text-twordleGreen text-2xl mb-3">🎨</div>
+                <h3 class="text-lg font-bold mb-2">Manual Board Tracking</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">Tap letters directly on your game board to color-code assumptions. Your custom changes sync instantly to your keyboard layout.</p>
+            </div>
+            <div class="bg-twordleCard p-6 rounded-xl border border-gray-800 shadow-md">
+                <div class="text-blue-400 text-2xl mb-3">💎</div>
+                <h3 class="text-lg font-bold mb-2">Dual Modes & Hints</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">Relax in Easy Mode or test your limits in 6-guess Hard Mode. Out of options? Watch a quick reward ad to gain a strategic hint!</p>
+            </div>
+        </div>
+    </section>
+
+    <hr class="border-gray-800 max-w-4xl mx-auto my-6">
+
+    <section class="max-w-3xl mx-auto px-6 py-12">
+        <h2 class="text-2xl font-bold mb-6 tracking-tight text-center md:text-left">Privacy Policy</h2>
+        <div class="bg-twordleCard p-6 rounded-xl border border-gray-800 max-h-80 overflow-y-scroll text-sm text-gray-400 space-y-4 shadow-inner">
+            <p class="font-semibold text-white">Effective Date: April 14, 2026</p>
+            <p>Technical Gamer ("we," "us," or "our") built the Twordle app as a Free app. This service is provided by Technical Gamer at no cost and is intended for use as is.</p>
+            
+            <h3 class="font-bold text-white pt-2">1. Information Collection and Use</h3>
+            <p>Game Data & Statistics: Twordle tracks your game progress, including games played, total wins, and current streaks. This data is saved locally on your device. We do not transmit or store this data on external servers. If you use the Export/Import feature, data is processed locally on your hardware.</p>
+            
+            <h3 class="font-bold text-white pt-2">2. Third-Party Services</h3>
+            <p>The app integrates third-party tools that may collect identifier metrics to operate:</p>
+            <ul class="list-disc pl-5 space-y-1">
+                <li>Google Play Services: Standard app delivery and framework infrastructure.</li>
+                <li>Google AdMob: Serves customized advertisements. AdMob evaluates device advertising IDs to display relevant, interest-based ad blocks.</li>
+            </ul>
+
+            <h3 class="font-bold text-white pt-2">3. Log Data</h3>
+            <p>In the event of an application crash or system error, diagnostic log parameters (device IP, operating system version, running app config states) are safely gathered through standard third-party tools to help deploy fast hotfixes.</p>
+
+            <h3 class="font-bold text-white pt-2">4. Children's Privacy</h3>
+            <p>These Services do not address anyone under the age of 13. We do not knowingly collect personal details from children. Discovered diagnostic or trace entries matching sub-13 parameters are immediately wiped from our technical records.</p>
+        </div>
+    </section>
+
+    <footer class="bg-twordleCard border-t border-gray-800 mt-12 py-8 text-center text-xs text-gray-500">
+        <p class="mb-2">&copy; 2026 Technical Gamer. All rights reserved.</p>
+        <p>Need support or want to submit feedback? Email us at: 
+            <a href="mailto:poonamshaah444@gmail.com" class="text-twordleYellow hover:underline">poonamshaah444@gmail.com</a>
+        </p>
+    </footer>
+
+</body>
+</html>
